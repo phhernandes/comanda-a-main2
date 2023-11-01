@@ -27,14 +27,14 @@ export const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: '#121A2C',
-        color: '#FFBA26',
+        color: '#F04B6D',
         padding: 8,
         paddingHorizontal: 48,
         borderRadius: 4,
         marginTop: 20,
     },
     buttonText: {
-        color: '#FFBA26',
+        color: '#F04B6D',
     },
     header: {
         width: '100%',
@@ -122,6 +122,9 @@ export const styles = StyleSheet.create({
     },
     scroll: {
         width: '100%',
+    },
+    erro:{
+        color: 'red'
     }
 
 });

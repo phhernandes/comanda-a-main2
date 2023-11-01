@@ -1,34 +1,48 @@
 {
     "produtos": [
-            {
-              "id": "1",
-              "nome": "Cheeseburger",
-              "imagePath": "https://example.com/cheeseburger.jpg",
-              "preco": 9.99
-            },
-            {
-              "id": "2",
-              "nome": "Hamburger",
-              "imagePath": "https://example.com/hamburger.jpg",
-              "preco": 8.99
-            },
-            {
-              "id": "3",
-              "nome": "Bacon Burger",
-              "imagePath": "https://example.com/baconburger.jpg",
-              "preco": 10.99
-            },
-            {
-              "id": "4",
-              "nome": "Mushroom Swiss Burger",
-              "imagePath": "https://example.com/mushroomswissburger.jpg",
-              "preco": 11.99
-            },
-            {
-              "id": "5",
-              "nome": "BBQ Burger",
-              "imagePath": "https://example.com/bbqburger.jpg",
-              "preco": 12.99
-            }
-    ]
+        {
+          "id": "1",
+          "nome": "Air Jordan 6 Retro Aqua",
+          "imagepath": "https://imgnike-a.akamaihd.net/1920x1920/027650ID.jpg",
+          "preco": 1899.99
+        },
+        {
+          "id": "2",
+          "nome": "Air Max 1 Urawa",
+          "imagepath": "https://imgnike-a.akamaihd.net/768x768/0276417T.jpg",
+          "preco": 1099.99
+        },
+        {
+          "id": "3",
+          "nome": "Forum Low Preto",
+          "imagepath": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5a9526314e4d45c09f6cafd2015f63a7_9366/Tenis_Forum_Low_Preto_IF5166_01_standard.jpg",
+          "preco": 699.99
+        },
+        {
+          "id": "4",
+          "nome": "New Balance 550 Red",
+          "imagepath": "https://artwalk.vteximg.com.br/arquivos/ids/373476-1000-1000/B50VT-B-100-1.jpg?v=638169178558670000",
+          "preco": 999.99
+        },
+        {
+          "id": "5",
+          "nome": "Adi2000",
+          "imagepath": "https://artwalk.vteximg.com.br/arquivos/ids/461841-1000-1000/ID209-5-001-1.jpg?v=638339452517000000",
+          "preco": 799.99
+        }
+      ],
+      "usuarios": [
+        { 
+          "id": "1",
+          "nome": "Pedro Hernandes",
+          "email": "pedrobeco97@gmail.com",
+          "senha": "1234"
+        },
+        { 
+          "id": "2",
+          "nome": "Maria Silva",
+          "email": "maria@fiap.com.br",
+          "senha": "4321"
+        }
+      ]
 }
