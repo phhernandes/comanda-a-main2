@@ -18,14 +18,16 @@ export default function Produtos() {
 
     useEffect( () => {
         axios.get("http://localhost:3000/produtos")
-            .then(resp => setProdutos(resp.data))        
+          .then(resp => setProdutos(resp.data))
     }, [] )
 
 
     return (
         <View style={styles.containerBetween}>
             <View style={styles.header}>
-                <MaterialIcons name="arrow-back" size={24} color="black" />
+                <TouchableOpacity>
+                    <MaterialIcons name="arrow-back" size={24} color="black" onPress={() => navigation.navigate('Comanda')} />
+                </TouchableOpacity>
 
                 <View style={styles.box}>
                     <Text>comanda</Text>
@@ -54,7 +56,8 @@ export default function Produtos() {
             <Text style={styles.subtitle}>Produtos</Text>
 
             <ScrollView style={styles.scroll}>
-                {produtos.map (p => <CardProduto key={p.id} produto ={p}/>)}
+                {produtos.map(p => <CardProduto key={p.id} produto={p}/> )}
+               
             </ScrollView>
 
 
